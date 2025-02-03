@@ -1,37 +1,48 @@
+
 <!DOCTYPE html>
 <html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بلیط کنسرت</title>
+    <title>کنسرت من</title>
     <style>
         body {
-            background-color: #8B0000; /* قرمز شرابی */
-            color: white;
-            text-align: center;
             font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1a1a1a;
+            color: white;
         }
-        .container {
-            margin-top: 50px;
+        img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
         }
-        .button {
+        .btn {
             display: block;
-            width: 200px;
+            width: 80%;
             margin: 10px auto;
             padding: 15px;
-            background-color: black;
-            color: white;
-            text-decoration: none;
             font-size: 18px;
+            background-color: #8B0000;
+            color: white;
+            border: none;
             border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #600000;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>به کنسرت ما خوش آمدید!</h1>
-        <a href="time.html" class="button">زمان برگزاری اجرا</a>
-        <a href="ticket-info.html" class="button">شرایط تهیه بلیط</a>
-    </div>
+
+    <!-- نمایش عکس کنسرت -->
+    <img src="images/concert.jpg" alt="Concert Image">
+
+    <!-- دکمه‌های راهنما -->
+    <a href="time.html" class="btn">⏰ زمان برگزاری اجرا</a>
+    <a href="ticket-info.html" class="btn">🎟️ شرایط تهیه بلیط</a>
+
 </body>
 </html>
