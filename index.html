@@ -1,48 +1,47 @@
-
 <!DOCTYPE html>
 <html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>کنسرت من</title>
+    <title>کنسرت ویژه</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            background-color: #800020; /* پس‌زمینه قرمز شرابی */
+            color: black; /* رنگ متن مشکی */
             text-align: center;
-            background-color: #1a1a1a;
-            color: white;
+            font-family: Arial, sans-serif;
         }
-        img {
-            width: 100%;
-            max-height: 400px;
-            object-fit: cover;
+        .container {
+            margin-top: 100px;
+        }
+        h1 {
+            font-size: 32px;
         }
         .btn {
-            display: block;
-            width: 80%;
-            margin: 10px auto;
-            padding: 15px;
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
             font-size: 18px;
-            background-color: #8B0000;
             color: white;
+            background-color: black;
             border: none;
             border-radius: 5px;
-            cursor: pointer;
             text-decoration: none;
+            transition: 0.3s;
         }
         .btn:hover {
-            background-color: #600000;
+            background-color: #444;
         }
     </style>
 </head>
 <body>
 
-    <!-- نمایش عکس کنسرت -->
-    <img src="images/concert.jpg" alt="Concert Image">
-
-    <!-- دکمه‌های راهنما -->
-    <a href="time.html" class="btn">⏰ زمان برگزاری اجرا</a>
-    <a href="ticket-info.html" class="btn">🎟️ شرایط تهیه بلیط</a>
+    <div class="container">
+        <h1>به کنسرت ویژه خوش آمدید</h1>
+        <p>برای اطلاعات بیشتر یکی از گزینه‌های زیر را انتخاب کنید:</p>
+        <a href="time.html" class="btn">زمان برگزاری</a>
+        <a href="ticket-info.html" class="btn">شرایط تهیه بلیط</a>
+    </div>
 
 </body>
 </html>
